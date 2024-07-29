@@ -1,0 +1,97 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+	list-style: none;
+
+}
+body{	
+	font-family: sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/header classes/
+.header{ 
+	width: 100%;
+    float: left;
+    background-image: url(banner-bg.png);
+    height: auto;
+    background-size: cover;
+    padding: 0px 0px 20px 0px;
+    
+}
+.logo{
+	width: 100%;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+.navigate{
+	font-size: 18px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding-left: 20px;
+
+    
+}
+.nav1{	
+	text-align: center;
+}
+.nav-item{
+	display: inline-block;
+	position: relative;
+	 padding-right: 30px;
+}
+.nav-link{
+
+	color: whitesmoke;
+}
+#check{
+	display:none;
+}
+
+		
+		button{
+			color:white;
+			cursor:pointer;
+			background-color: black;
+			height:30px;
+			width:80px;
+			border-radius:20px;
+			margin-top:30px;		
+		}
+		::placeholder{
+			padding:10px;
+			font-size:15px;
+		}
+		textarea{
+			width:50%;
+			height:20vh;
+			font-size:15px;
+			color:grey;
+			padding:5px;
+		}
+		input{
+			width:50%;
+			height:5vh;
+		}
+.footer{
+	background-image: url('footer-bg.png');
+	background-position: center;
+}
+.emmail{
+	height:45px;
+	border-radius:20px;
+	margin-top:250px;
+}
+.footer i{
+	color:white;
+	height:50px;
+	font-weight:bold;
+}
+.footer p{
+	color:white;
+	height:50px;
+	font-weight:bold;
+}
